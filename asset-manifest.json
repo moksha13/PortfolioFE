@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PortfolioFE/static/css/main.c3c931a1.css",
+    "main.js": "/PortfolioFE/static/js/main.8d75efe5.js",
+    "static/media/mocha.jpeg": "/PortfolioFE/static/media/mocha.f60a91f2acf46091be83.jpeg",
+    "static/media/moksha.webp": "/PortfolioFE/static/media/moksha.bdc45ac63ff47090ba2d.webp",
+    "index.html": "/PortfolioFE/index.html",
+    "main.c3c931a1.css.map": "/PortfolioFE/static/css/main.c3c931a1.css.map",
+    "main.8d75efe5.js.map": "/PortfolioFE/static/js/main.8d75efe5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3c931a1.css",
+    "static/js/main.8d75efe5.js"
+  ]
+}
