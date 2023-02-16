@@ -25,7 +25,7 @@ const HeaderScreen = ()=>{
     }
 
     return(
-      <div style={{flex:1,height:'20%', width:'100%'}}>
+      <div style={{flex:1, width:'100%'}}>
         <Navbar expand="lg" className={scrolled?"scrolled":"" } >
           <Container>
             <Navbar.Brand href="#home" className="moksha" style={{marginBottom:"2%"}}>
@@ -40,7 +40,7 @@ const HeaderScreen = ()=>{
                 <Nav.Link href="#skills" className={activeLink==='skills'?'active navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink('skills')}>Skills</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink==='projects'?'active navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
                 <Nav.Link href="#certification" className={activeLink==='certification'?'active navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink('certification')}>Certifications</Nav.Link>
-                <Nav.Link href="#service" className={activeLink==='service'?'active navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink('service')}>Services</Nav.Link>
+                <Nav.Link href="#services" className={activeLink==='service'?'active navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink('service')}>Services</Nav.Link>
                 <span className="navbar-text" style={{marginLeft:'30%'}}>
                     <div className="social-icon" style={{display:"flex", flexDirection:"row", marginBottom:'10%'}}>
                       <a href="https://www.linkedin.com/in/moksha-vemula-84ba06225">

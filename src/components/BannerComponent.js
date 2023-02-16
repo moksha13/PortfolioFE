@@ -1,14 +1,3 @@
-// import React from "react";
-
-// const BannerComponent = () =>{
-//   return(
-//     <div>
-//       <p>vjvihif</p>
-//     </div>
-//   )
-// }
-// export default BannerComponent
-
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
@@ -23,7 +12,7 @@ const BannerComponent = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Application Developer ", "Web Developer ", "UI/UX Designer " ];
+  const toRotate = [ "Application Developer ", "Web Developer ", "BackEnd Developer" ];
   const period = 2000;
 
  
@@ -80,7 +69,7 @@ const BannerComponent = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={mocha} alt="Header Img" style={{height:'400px', width:'400px', borderRadius:'200px', marginLeft:'10%'}}/>
+                  <img src={mocha} alt="Header Img" style={{height:'300px', width:'300px', borderRadius:'250px', marginLeft:'100px'}}/>
                 </div>}
             </TrackVisibility>
           </Col>
